@@ -32,6 +32,10 @@ body {
   background-color: #1c1f26;
 }
 
+.gallery img:hover {
+  transform: scale(1.03);
+}
+
 .btn-custom {
   background-color: #2a2d34;
   color: #ffffff;
