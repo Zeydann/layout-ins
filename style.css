@@ -42,16 +42,6 @@ body {
   transform: scale(1.01);
 }
 
-.btn-custom {
-  background-color: #2a2d34;
-  color: #ffffff;
-  border: none;
-}
-
-.btn-custom:hover {
-  background-color: #3a3e47;
-}
-
 @media (max-width: 767.98px) {
   .profile-header {
     text-align: center;
