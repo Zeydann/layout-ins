@@ -30,6 +30,7 @@ body {
   object-fit: cover;
   border-radius: 12px;
   background-color: #1c1f26;
+  transition: transform 0.2s ease;
 }
 
 .gallery img:hover {
