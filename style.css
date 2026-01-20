@@ -24,17 +24,22 @@ body {
   line-height: 1.4;
 }
 
+.gallery .row > div {
+  padding: 2px;
+}
+
 .gallery img {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 12px;
   background-color: #1c1f26;
+  transform: scale(0.97);
   transition: transform 0.2s ease;
 }
 
 .gallery img:hover {
-  transform: scale(1.03);
+  transform: scale(1.01);
 }
 
 .btn-custom {
